@@ -37,6 +37,7 @@ body {
 #countdown-small{
     margin-top: -135px;
     margin-bottom: 50px;
+    /*min-width: 302px;*/ /*op te kleine schermen (heeel klein) splitsen de getallen op in meerdere rijen*/
 }
 
 #countdown-small span.countdown-small-number{
