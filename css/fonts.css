@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Typewriter';
+    src: url('../fonts/Albertsthal%20Typewriter.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Albertsthal%20Typewriter.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Albertsthal%20Typewriter.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Albertsthal%20Typewriter.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Albertsthal%20Typewriter.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Back_In_the_USSR_DL_k';
+    src: url('../fonts/Back_In_the_USSR_DL_k.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Back_In_the_USSR_DL_k.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Back_In_the_USSR_DL_k.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Back_In_the_USSR_DL_k.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Back_In_the_USSR_DL_k.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'CFRevolution';
+    src: url('../fonts/CFRevolution.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/CFRevolution.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/CFRevolution.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/CFRevolution.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/CFRevolution.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'heavy_dock11';
+    src: url('../fonts/heavy_dock11.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/heavy_dock11.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/heavy_dock11.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/heavy_dock11.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/heavy_dock11.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Bolshevik';
+    src: url('../fonts/Kremlin%20Bolshevik%20Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Kremlin%20Bolshevik%20Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Kremlin%20Bolshevik%20Bold.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Kremlin%20Bolshevik%20Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Kremlin%20Bolshevik%20Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'kremlin';
+    src: url('../fonts/kremlin.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/kremlin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/kremlin.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/kremlin.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/kremlin.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'linowrite';
+    src: url('../fonts/linowrite.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/linowrite.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/linowrite.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/linowrite.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/linowrite.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'propaganda';
+    src: url('../fonts/propaganda.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/propaganda.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/propaganda.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/propaganda.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/propaganda.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'REVOLUTION';
+    src: url('../fonts/REVOLUTION.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/REVOLUTION.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/REVOLUTION.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/REVOLUTION.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/REVOLUTION.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Spoutnik';
+    /*src: url('../fonts/Spoutnik.eot'); /* IE9 Compat Modes */
+    /*src: url('../fonts/Spoutnik.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Spoutnik.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Spoutnik.ttf')  format('truetype'), /* Safari, Android, iOS */
+    /*url('../fonts/Spoutnik.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'URAL3D';
+    src: url('../fonts/URAL3D__.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/URAL3D__.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/URAL3D__.woff') format('woff'), /* Modern Browsers */
+    /*url('../fonts/URAL3D__.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/URAL3D__.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'URAL-___';
+    src: url('../fonts/URAL-___.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/URAL-___.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/URAL-___.woff') format('woff'), /* Modern Browsers */
+    /*url('../fonts/URAL-___.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/URAL-___.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'URAL-PHA';
+    src: url('../fonts/URAL-PHA.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/URAL-PHA.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/URAL-PHA.woff') format('woff'), /* Modern Browsers */
+    /*url('../fonts/URAL-PHA.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/URAL-PHA.svg#svgFontName') format('svg'); /* Legacy iOS */
+}

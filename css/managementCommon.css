@@ -1,0 +1,33 @@
+body {
+    background-image: url('../images/sanskritGray.png');
+    background-repeat: repeat;
+}
+
+h2 {
+    color: #000;
+    clear: both;
+}
+
+h3 {
+    color: #000;
+    clear: both;
+}
+
+h2:first-of-type {
+    margin-top: 0px;
+}
+
+/* header image */
+header img {
+    margin: 20px auto 0 auto;
+    width: 532px;
+    display: block;
+}
+
+/*Log out button*/
+.btnLogOut {
+    max-width: 175px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}

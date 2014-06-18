@@ -1,0 +1,52 @@
+/*
+///////////////////////////
+		ALGEMEEN
+///////////////////////////
+*/
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+	margin-bottom: 40px;
+}
+
+.center-vertical {
+  float:none; 
+  display:inline-block;
+  vertical-align:middle; 
+}
+
+
+
+
+
+/*
+///////////////////////////
+		STEMPAGINA
+///////////////////////////
+*/
+
+.divbtnvotes {
+	padding-left:100px;
+	padding-right:100px;
+	height: 80%;
+}
+
+.wetbeschrijving{
+	background-color: #ff5599;
+}
+	
+	
+.lblwetbeschrijving{
+	margin-top: 15px;
+	margin-bottom: 15px;	
+}
+
+.lblwetbeschrijving span{
+	white-space: normal;
+}

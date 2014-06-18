@@ -1,0 +1,27 @@
+body {
+}
+
+ul {
+    margin: auto;
+    display: block;
+    width: 200px;
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    font-size: 20px;
+    font-family: Linowrite, sans-serif;    
+}
+
+#contentContainer {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 50px;
+}

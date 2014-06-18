@@ -1,0 +1,222 @@
+* {
+	margin: 0px;
+}
+
+body {
+	font-family: sans-serif;
+    background-image: url("../images/sanskrit.png");
+}
+
+#container {
+	width: 100%;
+	min-width: 1024px;
+}
+
+/**********
+ * HEADER *
+ **********/
+
+#header {
+	width: 1024px;
+	margin: 30px auto 0px auto;
+}
+
+#header #hdr-logo {
+	width: 50%;
+	float: left;
+}
+
+#header #hdr-logo a {
+    text-align: center;
+}
+
+#header #hdr-logo img {
+	display: block;
+	margin: auto;
+	max-width: 426px;
+	max-height: 128px;
+}
+
+#header #hdr-countdown {
+	width: 50%;
+	float: left;
+	margin-top: 36px;
+}
+
+/****************
+ * BODY - STATS *
+ ****************/
+
+#stats {
+	margin-top: -75px;
+	position: relative;
+}
+
+#stats-header {
+	height: 114px;
+	background-image: url('../images/papier_boven.png');
+	background-repeat: repeat-x;
+}
+
+#stats-body {
+	margin-top: -50px;
+	background-image: url('../images/boer_achtergrond2.png'), url('../images/papier_midden.png');
+	background-repeat: no-repeat, repeat;
+	background-size: 40%, 100%;
+	background-position: center bottom, left top;
+	height: 304px; /* 4 items */
+}
+
+#stats-body #stats-left {
+	width: 80%;
+	float: left;
+}
+
+#stats-body #stats-left h1 {
+	font-size: 48px;
+	font-family: Linowrite;
+	font-weight: normal;
+	color: rgb(14, 11, 8);
+}
+
+#stats-body #stats-left #divNoCurrentProps {
+	font-size: 20px;
+	font-family: linowrite;
+	color: #000000;
+}
+
+#stats-body #stats-left #divCurrentProps {
+	width: 75%;
+	margin: auto;
+}
+
+table#tblCurrentProps {
+	margin-top: -20px;
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+	font-family: linowrite;
+}
+table#tblCurrentProps .align-left {
+	text-align: left;
+}
+table#tblCurrentProps .align-center {
+	text-align: center;
+}
+table#tblCurrentProps .align-top {
+	vertical-align: top;
+}
+table#tblCurrentProps .border-right {
+	border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+table#tblCurrentProps .border-bottom {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+table#tblCurrentProps .small {
+	font-size: 18px;
+}
+table#tblCurrentProps th {
+	font-weight: normal;
+}
+table#tblCurrentProps th.col1 {
+	width: 65px;
+}
+table#tblCurrentProps th.col2 {
+	min-width: 322px;
+}
+table#tblCurrentProps th.col3 {
+	width: 100px;
+}
+table#tblCurrentProps td {
+	font-size: 30px;
+	padding: 10px 5px 0px 5px;
+	vertical-align: middle;
+}
+table#tblCurrentProps td p {
+	max-height: 45px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+table#tblCurrentProps tbody tr:last-child td {
+	padding-bottom: 15px;
+}
+table#tblCurrentProps tbody tr {
+	height: 55px;
+}
+
+#stats-body #stats-right {
+	float: right;
+	width: 20%;
+}
+
+#stats-body #stats-right #amountOfRewards {
+	margin-top: -80px;
+
+	width: 95px;
+	height: 95px;
+	background-image: url('../images/prijzenpot.png');
+	padding: 72px 42px 4px 40px;
+
+	font-size: 48px;
+	font-family: "Linowrite";
+	color: #ffffff;
+	line-height: 95px;
+	text-align: center;
+}
+
+#stats-body #stats-right #divPageNumbers ul {
+	position: absolute;
+	bottom: 40px;
+	font-family: linowrite;
+	font-size: 24px;
+	color: rgba(0, 0, 0, 0.5);
+	list-style-type: none;
+}
+
+#stats-body #stats-right #divPageNumbers li {
+	display: inline;
+	padding: 5px;
+}
+
+#stats-body #stats-right #divPageNumbers li.currentPageNumber {
+	color: rgba(0, 0, 0, 1);
+}
+
+
+#stats-footer {
+	margin-top: -18px;
+	height: 80px;
+	background-image: url('../images/papier_onder.png');
+	background-repeat: repeat-x;
+}
+
+/***********
+ * CLEAR *
+ ***********/
+
+.clear {
+	clear: both;
+}
+
+/*********************
+ * Background shadow *
+ *********************/
+
+.contentFadeIn {
+	height: 135px;
+	background: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.2)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.2)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.2)); /*Fx 3.6-15*/
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2)); /*Standard*/
+}
+.contentFadeOut {
+	height: 135px;
+	background: -webkit-linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)); /*Safari 5.1-6*/
+	background: -o-linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)); /*Opera 11.1-12*/
+	background: -moz-linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)); /*Fx 3.6-15*/
+	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)); /*Standard*/
+	margin-top: -75px;
+}
+.contentContainer {
+	background: rgba(0,0,0,0.2);
+}

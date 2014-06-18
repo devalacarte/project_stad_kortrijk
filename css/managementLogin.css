@@ -1,0 +1,26 @@
+form {
+    display: block;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+}
+
+form password {
+    max-width: 50px;
+    text-align: center;
+}
+
+form submit {
+    margin-top: 20px;
+}
+
+h2 {
+    padding-top: 50px;
+}
+
+#divLoginFail {
+    text-align: center;
+    color: #f00;
+    margin: -1.5em 0 0 0;
+    padding: 0px;
+}

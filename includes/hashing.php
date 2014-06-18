@@ -1,0 +1,28 @@
+<?php
+function salt_my_pass($value)
+{
+    $salt1 = mt_rand(1000, 9999999999);
+    $salt2 = mt_rand(100, 999999999);
+    $valuehash = hash_salts($salt1, $value, $salt2);
+
+// Place into an array
+    $hash['Salt1'] = $salt1;
+    $hash['Salt2'] = $salt2;
+    $hash['Hash'] = $valuehash;
+
+// Return the hash and salts to whatever called our function
+    return $hash;
+
+}
+
+
+function hash_salts($salt1, $value, $salt2)
+{
+    $salted_value = $salt1 . $value . $salt2;
+    $valuehash = hash('sha512', $salted_value);
+    return $valuehash;
+}
+
+
+
+

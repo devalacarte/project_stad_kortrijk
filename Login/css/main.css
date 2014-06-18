@@ -1,0 +1,74 @@
+
+/* LOGIN */
+#boer{
+    margin-bottom: -8px;
+}
+
+#user{
+    margin-bottom: 25px;
+}
+
+#password {
+    margin-bottom: 25px;
+}
+
+#confirm {
+    display: none;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+#requirements {
+    margin-bottom: 15px;
+    color: #ecd5b5;
+}
+
+#requirements span {
+    margin-left: 10px;
+}
+
+*::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #c1c1c1;
+    text-align: left;
+    font:Georgia italic;
+}
+*:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #c1c1c1;
+    opacity:  1;
+    text-align: left;
+    font:Georgia italic;
+}
+*::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #c1c1c1;
+    opacity:  1;
+    text-align: left;
+    font:Georgia italic;
+}
+*:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #c1c1c1;
+    text-align: left;
+    font:Georgia italic;
+}
+
+input {
+    text-align: center;
+}
+
+input[type='password']
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.icon{
+    background-image: url(../images/login_checkbox.png);
+    background-repeat: no-repeat;
+    background-position: 98% center; /*left top*/
+    background-color: #ffffff ;
+}
+
+#btnsubmit{
+}
+
+#cocklogin{
+    margin: -130px auto 0 auto;
+}

@@ -1,0 +1,108 @@
+/*************
+ * COUNTDOWN *
+ *************/
+
+.countdown-small-number {
+	display: inline-block;
+	width: 37px;
+	height: 61px;
+	background-image: url('../images/timer_achtergrond.png');
+	background-size: 43px 67px;
+
+	padding: 3px;
+	line-height: 67px;
+
+	font-size: 32px;
+	font-family: Back_In_the_USSR_DL_k;
+	color: #FFFFFF;
+	text-align: center;
+
+	/* bootstrap fix */
+	box-sizing: content-box;
+}
+
+.countdown-small-separator {
+	display: inline-block;
+	width: 8px;
+	height: 61px;
+	line-height: 67px;
+	font-size: 32px;
+	font-family: Back_In_the_USSR_DL_k;
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.54);
+
+	/* bootstrap fix */
+	box-sizing: content-box;
+}
+
+/*****************************************************************************************/
+
+.countdown-medium-number {
+	display: inline-block;
+	width: 49px;
+	height: 81px;
+	background-image: url('../images/timer_achtergrond.png');
+	background-size: 55px 87px;
+
+	padding: 3px;
+	line-height: 87px;
+
+	font-size: 45px;
+	font-family: Back_In_the_USSR_DL_k;
+	color: #FFFFFF;
+	text-align: center;
+
+	/* bootstrap fix */
+	box-sizing: content-box;
+}
+
+.countdown-medium-separator {
+	display: inline-block;
+	width: 12px;
+	height: 81px;
+	line-height: 87px;
+	font-size: 45px;
+	font-family: Back_In_the_USSR_DL_k;
+	color: #FFFFFF;
+	text-align: center;
+
+	/* bootstrap fix */
+	box-sizing: content-box;
+}
+
+/*****************************************************************************************/
+
+.countdown-large-number {
+	display: inline-block;
+	width: 67px;
+	height: 111px;
+	background-image: url('../images/timer_achtergrond.png');
+	background-size: 79px 123px;
+
+	padding: 6px;
+	line-height: 123px;
+
+	font-size: 60px;
+	font-family: Back_In_the_USSR_DL_k;
+	color: #FFFFFF;
+	text-align: center;
+
+	/* bootstrap fix */
+	box-sizing: content-box;
+}
+
+
+.countdown-large-separator {
+	display: inline-block;
+	width: 16px;
+	height: 111px;
+	line-height: 123px;
+	font-size: 72px;
+	font-family: Back_In_the_USSR_DL_k;
+	color: #FFFFFF;
+	text-align: center;
+
+	/* bootstrap fix */
+	box-sizing: content-box;
+}

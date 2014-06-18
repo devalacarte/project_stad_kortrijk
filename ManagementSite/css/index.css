@@ -1,0 +1,37 @@
+
+/* Bar admin pass change */
+#btnToggleBarAdminPass {
+    cursor: pointer;
+}
+.expandChevron {
+    width: 20px;
+    height: 20px;
+}
+#divChangeBarAdminPassContainer {
+    margin-bottom: 80px;
+}
+#frmChangeBarAdminPass, #frmChangeMainAdminPass {
+    margin: auto;
+    width: 300px;
+}
+
+#submit, #mainAdminNewPassSubmit {
+    margin-top: 20px;
+    float: left;
+}
+#divBarAdminPassChangeSuccess, #divMainAdminPassChangeMessage {
+    float: left;
+    margin: 25px 0 0 10px;
+    font-family: Linowrite, sans-serif;
+    color: #fff;
+}
+
+#divChangeAdminPassContainer {
+    padding-top: 80px;
+}
+
+
+#countdown {
+    margin: 30px auto -100px;
+    width: 400px;
+}

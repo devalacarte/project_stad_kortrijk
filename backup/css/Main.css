@@ -1,0 +1,262 @@
+/*
+///////////////////////////
+		ALGEMEEN
+///////////////////////////
+*/
+/*VERPLAATST NAAR common.css*/
+
+body {
+    color: #fafafa;
+    font-family: linowrite;
+}
+
+#content {
+padding-top: 10px;
+}
+
+
+
+
+
+/*
+///////////////////////////
+    STEMPAGINA
+///////////////////////////
+*/
+/* algemeen */
+
+
+/* top 3 wetten */
+#stempel {
+    height: 182px; width: 200px;
+    background: url("../images/stempagina/stalin_stempel.png") no-repeat;
+    float: right;
+    margin-top: -80px;
+}
+
+#countdown-small{
+    margin-top: -135px;
+    margin-bottom: 50px;
+}
+
+#countdown-small span.countdown-small-number{
+    box-sizing: content-box;
+}
+
+#countdown-medium{
+    margin-top: -150px;
+}
+
+#countdown-medium span.countdown-medium-number{
+    box-sizing: content-box;
+}
+
+#countdown-large{
+    margin-top: -180px;
+}
+
+#countdown-large span.countdown-large-number{
+    box-sizing: content-box;
+}
+
+#wettentopbottom{
+    position: relative;
+    background:
+        url("../images/stempagina/papier_boven.png") top left repeat-x,
+        url(../images/stempagina/papier_onder.png) bottom left repeat-x,
+        url(../images/stempagina/papier_midden.png) top left content-box repeat;
+    padding: 0px; margin: 0px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    margin-bottom: 45px;
+    margin-top: 20px;
+
+
+}
+#wettenmidden {
+    background: url("../images/stempagina/papier_midden.png");
+    text-align: center;
+    font-size: 18pt;
+    color: #000000;
+}
+
+.huidigeWet{
+    margin-bottom: 45px;
+}
+
+.bullet{
+    font-family: Arial;
+}
+
+.lblwetsnr span.bullet{
+    font-size: 26px;
+}
+
+.bullet-left{
+    margin-right: 15px;
+}
+
+.bullet-right{
+    margin-left: 15px;
+}
+
+.lblwetsnr {
+    min-width: 60px;
+ }
+.huidigeWet .lblwetsnr{
+    margin-bottom: 15px;
+}
+
+.lblwetsnr span {
+    font-size: 24pt;
+}
+
+.lblwetsnr.visible-xs {
+    text-align: center;
+}
+
+.lblwetsnr.visible-xs span{
+    font-size: 16pt;
+}
+
+
+
+.lblwetbeschrijving {
+    font-size: 16pt;
+}
+
+.lblwetbeschrijving span {
+
+}
+
+.lblwetbeschrijving.visible-xs {
+    text-align: center;
+    font-size: 12pt;
+    margin-bottom: 15px;
+}
+
+
+
+/* oplijsting alle wetten */
+#oplijsting {
+
+}
+
+.wetbeschrijving {
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#oplijsting .lblwetsnr.hidden-xs{
+    margin-top: 11px;
+}
+
+#oplijsting .lblwetsnr span{
+    font-size: 18pt;
+}
+
+.btnVotes {
+    max-width: 175px;
+}
+.btnVotes.hidden-xs {
+    min-width: 100px;
+}
+
+.btnVotes.visible-xs {
+    font-size: 16pt;
+    width: 100px; /*min width voor xsmall devices, button te klein, min width werd niet herkent op gsm */
+    float: none;
+    margin: 0px auto; /* top right bottom left */
+}
+
+.btnVotes.hidden-xs{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LOGIN */
+#boer{
+    margin-bottom: -8px;
+}
+
+#user{
+    margin-bottom: 25px;
+}
+
+#password {
+    margin-bottom: 25px;
+}
+
+#confirm {
+    display: none;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+#requirements {
+    margin-bottom: 15px;
+    color: #ecd5b5;
+}
+
+#requirements span {
+    margin-left: 10px;
+}
+
+*::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #c1c1c1;
+    text-align: left;
+    font:Georgia italic;
+}
+*:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #c1c1c1;
+    opacity:  1;
+    text-align: left;
+    font:Georgia italic;
+}
+*::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #c1c1c1;
+    opacity:  1;
+    text-align: left;
+    font:Georgia italic;
+}
+*:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #c1c1c1;
+    text-align: left;
+    font:Georgia italic;
+}
+
+input {
+    text-align: center;
+}
+
+input[type='password']
+{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.icon{
+    background-image: url(../images/login/login_checkbox.png);
+    background-repeat: no-repeat;
+    background-position: 98% center; /*left top*/
+    background-color: #ffffff ;
+}
+
+#btnsubmit{
+}
+
+#cocklogin{
+    margin: -130px auto 0 auto;
+}

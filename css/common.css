@@ -1,0 +1,124 @@
+/*
+///////////////////////////
+		ALGEMEEN
+///////////////////////////
+*/
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url("../images/sanskrit.png");
+    /*font-family: linowrite;
+    color: #fafafa; */
+}
+
+h1 {
+    margin:35px auto 40px auto; /* top right bottom left */
+    float: none;
+    text-align: center;
+}
+
+
+h2 {
+    margin-bottom: 50px;
+    font-size: 36pt;
+    font-family: Linowrite;
+    color: #ffffff;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: Linowrite;
+    font-size: 25pt;
+}
+
+h2 + .visible-xs{
+    font-size: 18pt;
+}
+
+.center-vertical {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.white-space{
+    white-space: normal;
+}
+
+.clear-float {
+    clear: both;
+}
+
+
+/* Content shadow */
+.contentFadeIn, .contentFadeOut {
+    height: 135px;
+}
+.contentFadeIn {
+  background: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.2)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.2)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.2)); /*Fx 3.6-15*/
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2)); /*Standard*/
+  
+  margin-top: -70px;
+}
+.contentFadeOut {
+  background: -webkit-linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)); /*Fx 3.6-15*/
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0)); /*Standard*/
+}
+.contentContainer {
+    background: rgba(0,0,0,0.2);
+}
+
+
+
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+
+#content {
+    padding-bottom: 170px; /* hoogte van de footer */
+}
+
+
+
+/*footer*/
+#footer {
+    /*top: 100%;*/
+    /*margin-top: 230px;*/
+    height: 70px;
+    position: absolute;
+    background-color: #131313;
+    text-align: center;
+    bottom:0px; left:0;
+    width: 100%;
+    font-family: Linowrite, sans-serif;
+}
+
+#footer img{
+    margin-top: -100px; /*margin-left: -141px;*/
+    margin-left: auto; margin-right: auto;
+    display: block;
+}
+#footer span{
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: auto; margin-right: auto;
+}
