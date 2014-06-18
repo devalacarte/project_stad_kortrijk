@@ -9,7 +9,7 @@ include 'db_accounts.php';
 //vote functies
 if (isset($_POST['selectedwet'])) {
     $wet = $_POST['selectedwet'];
-    setcookie("WET[$wet]", true,time()+60*60*25);
+    setcookie("WET[$wet]", true,time()+60*60*25, '/');
     updateVotes($wet);
 }
 ?>

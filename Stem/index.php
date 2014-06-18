@@ -146,12 +146,12 @@ $parameters = $db->getParameters();
 
         </div>
         <!-- VERWIJDEREN VOOR PRODUCTIE: kijken hoe groot scherm is -->
-        <div class="col-md-6 col-lg-3">
+        <!--<div class="col-md-6 col-lg-3">
             <div class="visible-lg text-success">Large Devices!</div>
             <div class="visible-md text-warning">Medium Devices!</div>
             <div class="visible-sm text-danger"> Small Devices</div>
             <div class="visible-xs text-danger">Extra Small</div>
-        </div>
+        </div>-->
 
     </div>
 
@@ -201,7 +201,7 @@ $parameters = $db->getParameters();
                 alert(response);
             });
             $(this).delay(100).queue(function () {
-               //$(this).addClass("disabled");
+               $(this).addClass("disabled");
                //$(this).attr("disabled", "disabled");
                 $(this).dequeue();
             });
